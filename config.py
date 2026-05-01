@@ -43,7 +43,7 @@ from pathlib import Path
 # ─────────────────────────────────────────────────────────────────────────────
 
 DATASET_ROOT = Path(
-    r"F:\Alale\YOlo v11\personpath_yolo11\tracking-dataset\dataset\personpath22"
+    r"personpath_yolo11\tracking-dataset\dataset\personpath22"
 )
 
 # Folder containing the uid_vid_*.mp4 files
