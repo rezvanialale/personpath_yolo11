@@ -1,0 +1,32 @@
+# ──────────────────────────────────────────────────────────────
+# YOLOv11 PersonPath22 Benchmark — Python dependencies
+# ──────────────────────────────────────────────────────────────
+# Install with:
+#   pip install -r requirements.txt
+#
+# GPU users (NVIDIA CUDA 12.1):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Then re-run: pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────
+
+# Core: YOLOv11 + tracker configs ship with ultralytics
+ultralytics>=8.3.0
+
+# Video decode/encode and drawing
+opencv-python>=4.9.0
+
+# Deep learning backend (CPU build; GPU users see note above)
+torch>=2.2.0
+torchvision>=0.17.0
+
+# mAP evaluation
+pycocotools>=2.0.7
+# Windows alternative (if pycocotools fails to compile):
+# pycocotools-windows>=2.0.0.3
+
+# Dataset download (same as the official PersonPath22 download.py)
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Data handling
+numpy>=1.24.0
